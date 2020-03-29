@@ -35,7 +35,7 @@ int main()
 		low = middle + 1;
 		else if (array[middle] == search)
 		{
-			printf("%d found at location %d",search, middle+1);
+			printf("%d found at location %d .",search, middle+1);
 			break;
 		}
 		else
@@ -43,6 +43,6 @@ int main()
 
 	}		
 	if(low > high)
-	printf("Not found! %d isn't present in the list.",search);
+	printf("Not found!");
 	return 0;
 }
